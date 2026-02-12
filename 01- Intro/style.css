@@ -1,0 +1,15 @@
+body {
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px 100px;
+    background-color: cadetblue;
+}
+
+.item {
+    border: 1px solid rgb(201, 70, 92);
+}

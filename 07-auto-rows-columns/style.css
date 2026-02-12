@@ -1,0 +1,32 @@
+
+
+body { 
+    font-family: sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+.container { 
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 12px;
+
+
+    grid-auto-flow: column;
+
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+
+   
+    background-color: cornflowerblue;
+}
+
+.item {
+
+    background-color: crimson;
+  
+}
+
+
+Commit: Tercera sesión de CSS Grid

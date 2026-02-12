@@ -1,0 +1,46 @@
+body { 
+    font-family: sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+.container { 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+
+    grid-template-areas: 
+        "header header header"
+        "main main sidebar"
+        "footer footer footer";
+
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.item {
+    background-color: crimson;
+    grid-area: header;
+}
+
+
+.header{
+    grid-area: header;
+    background-color: coral;
+}
+
+.main{
+    grid-area: main;
+background-color: aquamarine;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(112, 69, 152);
+}
+
+.footer{
+    grid-area: footer;
+    background-color: rgb(200, 87, 87);
+
+}
